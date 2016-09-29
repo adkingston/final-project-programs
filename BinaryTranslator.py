@@ -4,6 +4,7 @@ Created on Thu Aug 11 18:51:10 2016
 
 @author: Alexander
 """
+"""This program takes in a binary number as a string and returns the equivalent quartenary and its location in the unit square"""
 
 import turtle
 import random
@@ -122,13 +123,6 @@ def random_binary(C):
     S = "".join(R)
     return S
 
-
-
-
-B = random_binary(10)
-print B
-print spacefillingfunction(B)
-binary_to_point(150,B)
-
-
-    
+#example
+X = random_binary(10)
+print binary_to_point(150,X)
