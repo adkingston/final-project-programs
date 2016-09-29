@@ -80,16 +80,7 @@ def peano(d,level):
     inst = instructions('A', A, B, level)
     drawLsystem(inst, 90, d)
     wn.exitonclick()
-    
-def trapazoid(d, level): #needs fixing
-    A = '-A-A++A---'
-    B = ''
-    inst = instructions('A',A,B,level)
-    drawLsystem(inst, 60, d)
-    wn.exitonclick()
-
-peano(10,2)
-    
+  
 turtle.delay()
 turtle.done()
 
